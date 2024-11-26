@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML semântico</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        .topo{
+            background-color: blue;
+            padding: 20px;
+            text-align: center;
+        }
+        .menu{
+            background-color: yellow;
+            overflow: hidden;
+        }
+        .menu a{
+            color: black;
+            padding: 14px 16px;
+            float: left;
+            display: block;
+            text-decoration: none;
+        }
+        .coluna-50{
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!--TAG SEMÂNTICA PARA O TOPO-->
+    <header class="topo">
+        <h1>Topo</h1>
+        <p>Aqui a parte do topo</p>
+    </header>
+
+    <!--TAG SEMÂNTICA PARA MENU-->
+    <nav class="menu">
+        <a href="equipe/adenilson.html">Sobre mim</a>
+        <a href="equipe/adenilson.html">Sobre mim</a>
+        <a href="equipe/adenilson.html">Sobre mim</a>
+    </nav>
+
+    <!--TAG SEMÂNTICA PARA SEÇÃO-->
+    <section class="coluna-50">
+        <h2>Coluna</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid expedita nobis dolore placeat eos pariatur, delectus, commodi, iusto minus odit provident? Voluptate temporibus debitis, et consequatur reiciendis sapiente doloremque perspiciatis!</p>
+    </section>
+
+    <section class="coluna-50">
+        <h2>Coluna</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid expedita nobis dolore placeat eos pariatur, delectus, commodi, iusto minus odit provident? Voluptate temporibus debitis, et consequatur reiciendis sapiente doloremque perspiciatis!</p>
+    </section>
+
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>

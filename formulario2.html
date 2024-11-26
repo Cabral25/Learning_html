@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário2</title>
+</head>
+<body style="background-color: hsl(241, 100%, 50%);">
+
+    <h1>Praticando</h1>
+    <hr>
+
+    <form>
+        <label for="campo_nome">Nome: </label>
+        <input id="campo_nome" type="text" placeholder="Digite aqui seu nome" required><br><br>
+
+        <label for="campo_sobrenome">Sobrenome: </label>
+        <input id="campo_sobrenome" type="text" placeholder="Seu sobrenome aqui" required><br><br>
+
+        <label for="email">Email: </label>
+        <input id="email" type="email" placeholder="Seu email aqui" required><br><br>
+
+        <label for="senha">Senha: </label>
+        <input id="senha" type="password" placeholder="Sua senha aqui" required><br><br>
+
+        <h2>Gênero</h2>
+
+        <input id="masculino" type="radio" required name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br><br>
+
+        <input id="feminino" type="radio" required name="genero" value="feminino">
+        <label for="feminino">Feminino</label><br><br>
+
+        <input id="outro" type="radio" required name="genero" value="outro">
+        <label for="outro">Outro</label><br><br>
+
+        <h2>O que você tem em casa?</h2>
+
+        <input id="tv" type="checkbox" name="tv" value="TV">
+        <label for="tv">TV</label><br><br>
+
+        <input id="geladeira" type="checkbox" name="geladeira" value="Geladeira">
+        <label for="geladeira">Geladeira</label><br><br>
+
+        <input id="cama" type="checkbox" name="cama" value="Cama">
+        <label for="cama">Cama</label><br><br>
+
+        <input id="sofa" type="checkbox" name="sofa" value="Value">
+        <label for="sofa">Sofá</label><br><br>
+
+        <input id="fogao" type="checkbox" name="fogao" value="Fogão">
+        <label for="fogao">Fogão</label><br><br>
+
+        <input id="armario" type="checkbox" name="armario" value="Armário">
+        <label for="armario">Armário</label><br><br>
+
+        <h2>Escolha um anime:</h2>
+        <select name="animes">
+            <option selected disabled>Selecione um anime</option>
+            <option value="Naruto">Naruto</option>
+            <option value="One piece">One piece</option>
+            <option value="Dragon ball">Dragon ball</option>
+            <option value="Pokémon">Pokémon</option>
+            <option value="Death note">Death note</option>
+        </select><br><br>
+
+        <h2>Redija uma mensagem:</h2>
+        <textarea name="mensagem" rows="15" cols="35" placeholder="Digite aqui a sua mensagem"></textarea><br><br>
+
+        <button>Clique aqui</button><br><br>
+
+        <input type="submit" value="Enviar formulário">
+    </form>
+    
+</body>
+</html>
