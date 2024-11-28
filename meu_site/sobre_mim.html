@@ -16,6 +16,17 @@
             color: rgb(63, 133, 133);
             padding: 14px 16px;
         }
+        .media{
+            padding: 15px;
+            float: left;
+        }
+        .texto{
+            padding: 15px;
+            font: 1em sans-serif;
+        }
+        .media video{
+            float: right;
+        }
     </style>
 </head>
 <body>
@@ -24,9 +35,15 @@
         <h1>O que você vai encontrar nessa página?</h1>
     </header>
 
-    <img src="imagens/memes_everywhere.jpeg">
+    <section class="media">
+        <img src="imagens/memes_everywhere.jpeg">
+        <video controls poster="imagens/pica-pau.jpeg" autoplay width="50%">
+            <source src="C:\Users\cabra\OneDrive\Learning_html\videos\Não.... Não, Eu não Vou não! _ Pica Pau.mp4" type="video/mp4">
+        </video>
+    </section>
+    
 
-    <section>
+    <section class="texto">
         <h2>Sobre mim</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem debitis odit adipisci autem quis nesciunt, ipsa quidem, ex assumenda ipsam at ab rerum necessitatibus? Nostrum velit inventore amet dolores ex.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem debitis odit adipisci autem quis nesciunt, ipsa quidem, ex assumenda ipsam at ab rerum necessitatibus? Nostrum velit inventore amet dolores ex.</p>

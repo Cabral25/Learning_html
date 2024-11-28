@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        .topo{
+            text-align: center;
+            background-color: azure;
+            padding: 15px;
+        }
+        .links{
+            float: right;
+            padding: 15px;
+        }
+        .links a{
+            text-decoration: none;
+            color: rgb(34, 19, 87);
+        }
+        .formularios{
+            padding: 15px;
+            background-color: rgb(56, 104, 93);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="topo">
+        <h1>Formulários</h1>
+    </header>
+    
+    <section class="formularios">
+        <h2>Informações básicas</h2>
+        <form>
+            <label for="nome">Nome: </label>
+            <input id="nome" type="text" placeholder="Seu nome aqui" required><br><br>
+
+            <label for="sobrenome">Sobrenome: </label>
+            <input id="sobrenome" type="text" placeholder="Seu sobrenome aqui" required><br><br>
+
+            <label for="email">Email: </label>
+            <input id="email" type="email" placeholder="Seu email aqui" required><br><br>
+
+            <label for="senha">Senha: </label>
+            <input id="senha" type="password" placeholder="Sua senha aqui" required><br><br>
+
+            <h2>Gênero</h2>
+
+            
+            <input id="masculino" type="radio" value="Masculino" name="gênero">
+            <label for="masculino">Masculino</label><br><br>
+
+            <input id="feminino" type="radio" name="gênero" value="Feminino">
+            <label for="feminino">Feminino</label><br><br>
+
+            <input id="outro" type="radio" name="gênero" value="Outro">
+            <label for="outro">Outro</label><br><br>
+
+            <h2>Coisas que você tem em casa</h2>
+
+            <input id="geladeira" type="checkbox" name="item1" value="Geladeira">
+            <label for="geladeira">Geladeira</label><br><br>
+
+            <input id="fogao" type="checkbox" name="item2" value="Fogão">
+            <label for="fogao">Fogão</label><br><br>
+
+            <input id="tv" type="checkbox" name="item3" value="TV">
+            <label for="tv">TV</label><br><br>
+
+            <h2>Escolha sua cor favorita</h2>
+
+            <select>
+                <option selected disabled>Escolha uma cor</option>
+                <option value="Vermelho">Vermelho</option>
+                <option value="Amarelo">Amarelo</option>
+                <option value="Verde">Verde</option>
+            </select><br><br>
+
+            <h2>Deixe uma mensagem: </h2>
+
+            <textarea placeholder="Sua mensagem" cols="35" rows="15"></textarea><br><br>
+
+            <input type="submit" value="Enviar formulário">
+        </form>
+
+        
+    </section>
+
+    <nav class="links">
+        <a href="index.html">Voltar à página principal</a>
+    </nav>
+    
+</body>
+</html>
